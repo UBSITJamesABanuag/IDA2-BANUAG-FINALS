@@ -1,40 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />\
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>EduHope PH - Home</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="home.css" />
-    </head>
-    <body>
-        <header>
-            <h1>𝐄𝐃𝐔𝐇𝐎𝐏𝐄 𝐏𝐇</h1>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="subjects.html">Subjects</a>
-                <a href="videos.html">Videos</a>
-                <a href="downloadables.html">Downloadables</a>
-                <a href="contact.html">Contact</a>
-                <a href="about.html">About</a>
-            </nav>
-            <header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduHope PH - Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #6a4c93, #3a7bbf, #ffffff); /* Shining purple, blue, and white gradient */
+      background-size: 400% 400%; /* To create a moving shining effect */
+      animation: shineEffect 6s ease infinite; /* Adds shine animation */
+      color: #333;
+    }
 
-            <main>
-                <section>
-                    <h2>𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐖𝐞𝐛𝐬𝐢𝐭𝐞:</h2>
-                    <p>🇹‌🇭‌🇪‌ 🇲‌🇦‌🇮‌🇳‌ 🇬‌🇴‌🇦‌🇱‌ 🇴‌🇫‌ 🇴‌🇺‌🇷‌ 🇼‌🇪‌🇧‌🇸‌🇮‌🇹‌🇪‌ 🇮‌🇸‌ 🇹‌🇴‌ 🇵‌🇷‌🇴‌🇻‌🇮‌🇩‌🇪‌ 🇫‌🇷‌🇪‌🇪‌, 🇪‌🇦‌🇸‌🇾‌-🇹‌🇴‌-🇺‌🇳‌🇩‌🇪‌🇷‌🇸‌🇹‌🇦‌🇳‌🇩‌ 🇪‌🇩‌🇺‌🇨‌🇦‌🇹‌🇮‌🇴‌🇳‌🇦‌🇱‌ 🇷‌🇪‌🇸‌🇴‌🇺‌🇷‌🇨‌🇪‌🇸‌ 🇫‌🇴‌🇷‌ 🇸‌🇹‌🇺‌🇩‌🇪‌🇳‌🇹‌🇸‌ 🇮‌🇳‌ 🇷‌🇪‌🇲‌🇴‌🇹‌🇪‌ 🇴‌🇷‌ 🇺‌🇳‌🇩‌🇪‌🇷‌🇸‌🇪‌🇷‌🇻‌🇪‌🇩‌ 🇦‌🇷‌🇪‌🇦‌🇸‌ 🇴‌🇫‌ 🇹‌🇭‌🇪‌ 🇵‌🇭‌🇮‌🇱‌🇮‌🇵‌🇵‌🇮‌🇳‌🇪‌🇸‌.</p>
-                </section>
+    @keyframes shineEffect {
+      0% {
+        background-position: 100% 100%;
+      }
+      50% {
+        background-position: 0% 0%;
+      }
+      100% {
+        background-position: 100% 100%;
+      }
+    }
 
-                <section>
-                    <h2>𝐓𝐚𝐫𝐠𝐞𝐭 𝐀𝐮𝐝𝐢𝐞𝐧𝐜𝐞:</h2>
-                    <p>🇫‌🇮‌🇱‌🇮‌🇵‌🇮‌🇳‌🇴‌ 🇸‌🇹‌🇺‌🇩‌🇪‌🇳‌🇹‌🇸‌ 🇫‌🇷‌🇴‌🇲‌ 🇵‌🇺‌🇧‌🇱‌🇮‌🇨‌ 🇭‌🇮‌🇬‌🇭‌ 🇸‌🇨‌🇭‌🇴‌🇴‌🇱‌🇸‌ 🇮‌🇳‌ 🇷‌🇺‌🇷‌🇦‌🇱‌ 🇦‌🇷‌🇪‌🇦‌🇸‌, 🇦‌🇬‌🇪‌🇸‌ 12–18, 🇪‌🇸‌🇵‌🇪‌🇨‌🇮‌🇦‌🇱‌🇱‌🇾‌ 🇹‌🇭‌🇴‌🇸‌🇪‌ 🇼‌🇮‌🇹‌🇭‌ 🇱‌🇮‌🇲‌🇮‌🇹‌🇪‌🇩‌ 🇦‌🇨‌🇨‌🇪‌🇸‌🇸‌ 🇹‌🇴‌ 🇧‌🇴‌🇴‌🇰‌🇸‌, 🇹‌🇺‌🇹‌🇴‌🇷‌🇮‌🇦‌🇱‌🇸‌, 🇦‌🇳‌🇩‌ 🇴‌🇳‌🇱‌🇮‌🇳‌🇪‌ 🇷‌🇪‌🇸‌🇴‌🇺‌🇷‌🇨‌🇪‌🇸‌.</p>
-                    
-                    <section>
+    header {
+      background-color: #6a4c93; /* Shining Purple */
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
 
-                    </main>
-                    <footer>
-                        <p>&copy; 2025 𝙀𝙙𝙪𝙃𝙤𝙥𝙚 𝙋𝙃 | 𝘾𝙧𝙚𝙖𝙩𝙚𝙙 𝙗𝙮 𝘽𝘼𝙉𝙐𝘼𝙂 </p>
-        </footer>
-    </body>
+    nav {
+      margin-top: 0.5rem;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 2rem;
+      gap: 2rem;
+    }
+
+    .box {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 1.5rem;
+      flex: 1 1 350px;
+      max-width: 500px;
+    }
+
+    .box h2 {
+      color: #3a7bbf;
+      margin-bottom: 1rem;
+    }
+
+    .stickers {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+
+    .sticker {
+      width: 100px;
+      height: auto;
+      border-radius: 10px;
+      background: #fff;
+      padding: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #6a4c93; /* Shining Purple */
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      main {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>𝐄𝐃𝐔𝐇𝐎𝐏𝐄 𝐏𝐇</h1>
+      <nav>
+        <a href="index.html">𝙃𝙤𝙢𝙚</a>
+        <a href="subjects.html">𝙎𝙪𝙗𝙟𝙚𝙘𝙩𝙨</a>
+        <a href="videos.html">𝙑𝙞𝙙𝙚𝙤𝙨</a>
+        <a href="downloadables.html">𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙖𝙗𝙡𝙚𝙨</a>
+        <a href="contact.html">𝘾𝙤𝙣𝙩𝙖𝙘𝙩</a>
+        <a href="about.html">𝘼𝙗𝙤𝙪𝙩</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="box">
+        <h2>🎯 𝐎𝐛𝐣𝐞𝐜𝐭𝐢𝐯𝐞 𝐨𝐟 𝐭𝐡𝐞 𝐖𝐞𝐛𝐬𝐢𝐭𝐞</h2>
+        <p>🇹‌🇭‌🇪‌ 🇬‌🇴‌🇦‌🇱‌ 🇴‌🇫‌ <strong>EduHope PH</strong> 🇮‌🇸‌ 🇹‌🇴‌ 🇵‌🇷‌🇴‌🇻‌🇮‌🇩‌🇪‌ 🇫‌🇷‌🇪‌🇪‌ 🇪‌🇩‌🇺‌🇨‌🇦‌🇹‌🇮‌🇴‌🇳‌🇦‌🇱‌ 🇷‌🇪‌🇸‌🇴‌🇺‌🇷‌🇨‌🇪‌🇸‌ 🇹‌🇴‌ 🇷‌🇺‌🇷‌🇦‌🇱‌ 🇸‌🇹‌🇺‌🇩‌🇪‌🇳‌🇹‌🇸‌. The site includes videos, modules, and printables tailored for low-bandwidth regions.</p>
+      </div>
+
+      <div class="box">
+        <h2>👥 𝐓𝐚𝐫𝐠𝐞𝐭 𝐀𝐮𝐝𝐢𝐞𝐧𝐜𝐞</h2>
+        <p>🇫‌🇮‌🇱‌🇮‌🇵‌🇮‌🇳‌🇴‌ 🇸‌🇹‌🇺‌🇩‌🇪‌🇳‌🇹‌🇸‌, 🇦‌🇬‌🇪‌🇸‌ 12–18, 🇮‌🇳‌ 🇷‌🇺‌🇷‌🇦‌🇱‌ 🇵‌🇺‌🇧‌🇱‌🇮‌🇨‌ 🇸‌🇨‌🇭‌🇴‌🇴‌🇱‌🇸‌ 🇼‌🇮‌🇹‌🇭‌ 🇱‌🇮‌🇲‌🇮‌🇹‌🇪‌🇩‌ 🇮‌🇳‌🇹‌🇪‌🇷‌🇳‌🇪‌🇹‌ 🇦‌🇨‌🇨‌🇪‌🇸‌🇸‌.</p>
+      </div>
+
+      <div class="box">
+        <h2>📚 𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐒𝐭𝐢𝐜𝐤𝐞𝐫𝐬</h2>
+        <div class="stickers">
+          <img src="assets/picture/fd6f299945dd29e42977286f3a95b0b4.jpg" alt="Math" class="sticker" />
+          <img src="assets/picture/de4bba7938a640fc7c4db279a94adb83.jpg" alt="Science" class="sticker" />
+          <img src="assets/picture/7bd9423a5515d9ccceb4932e08abddff.jpg" alt="Computer" class="sticker" />
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 𝐄𝐝𝐮𝐇𝐨𝐩𝐞 𝐏𝐇 | Created by 𝘽𝘼𝙉𝙐𝘼𝙂</p>
+    </footer>
+  </div>
+</body>
 </html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduHope PH - Videos</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #6a11cb;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav {
+      margin-top: 1rem;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .intro-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .intro-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    .intro-image {
+      flex: 1;
+      min-width: 250px;
+      text-align: right;
+    }
+
+    .intro-image img {
+      max-width: 300px;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .video-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .video-box {
+      background-color: #f3f0ff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      padding: 1rem;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .video-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .video-box h3 {
+      color: #4b0082;
+      margin-bottom: 1rem;
+    }
+
+    .video-box iframe {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #6a11cb;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      .video-container {
+        grid-template-columns: 1fr;
+      }
+      .intro-section {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .intro-image {
+        text-align: center;
+        margin-top: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>𝐕𝐢𝐝𝐞𝐨 𝐎𝐟𝐟𝐞𝐫𝐞𝐝</h1>
+      <nav>
+        <a href="index.html">𝙃𝙤𝙢𝙚</a>
+        <a href="subjects.html">𝙎𝙪𝙗𝙟𝙚𝙘𝙩𝙨</a>
+        <a href="videos.html">𝙑𝙞𝙙𝙚𝙤𝙨</a>
+        <a href="downloadables.html">𝘿𝙤𝙬𝙣𝙡𝙤𝙖𝙙𝙖𝙗𝙡𝙚𝙨</a>
+        <a href="contact.html">𝘾𝙤𝙣𝙩𝙖𝙘𝙩</a>
+        <a href="about.html">𝘼𝙗𝙤𝙪𝙩</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="intro-section">
+        <div class="intro-text">
+          <h2>𝐄𝐝𝐮𝐜𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐕𝐢𝐝𝐞𝐨𝐬: </h2>
+          <p>🇼‌🇦‌🇹‌🇨‌🇭‌ 🇵‌🇷‌🇪‌-🇷‌🇪‌🇨‌🇴‌🇷‌🇩‌🇪‌🇩‌ 🇪‌🇽‌🇵‌🇱‌🇦‌🇮‌🇳‌🇪‌🇷‌ 🇻‌🇮‌🇩‌🇪‌🇴‌🇸‌ 🇮‌🇳‌ 🇹‌🇦‌🇬‌🇱‌🇮‌🇸‌🇭‌ 🇹‌🇴‌ 🇭‌🇪‌🇱‌🇵‌ 🇾‌🇴‌🇺‌ 🇺‌🇳‌🇩‌🇪‌🇷‌🇸‌🇹‌🇦‌🇳‌🇩‌ 🇰‌🇪‌🇾‌ 🇨‌🇴‌🇳‌🇨‌🇪‌🇵‌🇹‌🇸‌ 🇧‌🇪‌🇹‌🇹‌🇪‌🇷‌. 🇹‌🇭‌🇪‌🇸‌🇪‌ 🇻‌🇮‌🇩‌🇪‌🇴‌🇸‌ 🇦‌🇷‌🇪‌ 🇨‌🇷‌🇪‌🇦‌🇹‌🇪‌🇩‌ 🇹‌🇴‌ 🇲‌🇦‌🇰‌🇪‌ 🇱‌🇪‌🇦‌🇷‌🇳‌🇮‌🇳‌🇬‌ 🇲‌🇴‌🇷‌🇪‌ 🇮‌🇳‌🇹‌🇪‌🇷‌🇪‌🇸‌🇹‌🇮‌🇳‌🇬‌. 🇪‌🇦‌🇨‌🇭‌ 🇻‌🇮‌🇩‌🇪‌🇴‌ 🇨‌🇴‌🇳‌🇹‌🇦‌🇮‌🇳‌🇸‌ 🇸‌🇹‌🇪‌🇵‌-🇧‌🇾‌-🇸‌🇹‌🇪‌🇵‌ 🇩‌🇪‌🇲‌🇴‌🇳‌🇸‌🇹‌🇷‌🇦‌🇹‌🇮‌🇴‌🇳‌🇸‌ 🇹‌🇴‌ 🇸‌🇺‌🇵‌🇵‌🇴‌🇷‌🇹‌ 🇻‌🇮‌🇸‌🇺‌🇦‌🇱‌ 🇱‌🇪‌🇦‌🇷‌🇳‌🇪‌🇷‌🇸‌. 🇾‌🇴‌🇺‌ 🇨‌🇦‌🇳‌ 🇵‌🇦‌🇺‌🇸‌e, 🇷‌🇪‌🇵‌🇱‌🇦‌🇾‌, 🇴‌🇷‌ 🇼‌🇦‌🇹‌🇨‌🇭‌ 🇦‌🇹‌ 🇾‌🇴‌🇺‌🇷‌ 🇴‌🇼‌🇳‌ 🇵‌🇦‌🇨‌🇪‌, 🇼‌🇭‌🇮‌🇨‌🇭‌ 🇮‌🇸‌ 🇬‌🇷‌🇪‌🇦‌🇹‌ 🇫‌🇴‌🇷‌ 🇷‌🇪‌🇻‌🇮‌🇸‌🇮‌🇴‌🇳‌. 🇹‌🇭‌🇪‌ 🇱‌🇦‌🇳‌🇬‌🇺‌🇦‌🇬‌🇪‌ 🇺‌🇸‌🇪‌🇩‌ 🇮‌🇸‌ 🇸‌🇮‌🇲‌🇵‌🇱‌🇪‌ 🇦‌🇳‌🇩‌ 🇸‌🇹‌🇺‌🇩‌🇪‌🇳‌🇹‌-🇫‌🇷‌🇮‌🇪‌🇳‌🇩‌🇱‌🇾‌, 🇼‌🇭‌🇮‌🇨‌🇭‌ 🇷‌🇪‌🇲‌🇴‌🇻‌🇪‌🇸‌ 🇱‌🇦‌🇳‌🇬‌🇺‌🇦‌🇬‌🇪‌ 🇧‌🇦‌🇷‌🇷‌🇮‌🇪‌🇷‌🇸‌. 🇬‌🇪‌🇹‌ 🇷‌🇪‌🇦‌🇩‌🇾‌ 🇹‌🇴‌ 🇪‌🇽‌🇵‌🇱‌🇴‌🇷‌ 🇦‌ 🇳‌🇪‌🇼‌ 🇼‌🇦‌🇾‌ 🇴‌🇫‌ 🇱‌🇪‌🇦‌🇷‌🇳‌🇮‌🇳‌🇬‌ 🇦‌🇳‌🇾‌🇹‌🇮‌🇲‌🇪‌, 🇦‌🇳‌🇾‌🇼‌🇭‌🇪‌🇷‌🇪‌!</p>
+        </div>
+        <div class="intro-image">
+          <img src="assets/picture/361418634_817945399647155_3940546842526659856_n.jpg" alt="Learning Together" />
+        </div>
+      </div>
+
+      <div class="video-container">
+        <div class="video-box">
+          <h3>𝐌𝐚𝐭𝐡 𝐌𝐚𝐝𝐞 𝐄𝐚𝐬𝐲 - 𝐓𝐚𝐠𝐥𝐢𝐬𝐡 𝐄𝐝𝐢𝐭𝐢𝐨𝐧</h3>
+          <iframe src="assets/video/How to Add and Subtract Fractions in Algebra For Dummies.mp4" title="Math Video" allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+          <h3>𝐒𝐜𝐢𝐞𝐧𝐜𝐞 𝐂𝐨𝐧𝐜𝐞𝐩𝐭𝐬 𝐄𝐱𝐩𝐥𝐚𝐢𝐧𝐞𝐝 𝐒𝐢𝐦𝐩𝐥𝐲</h3>
+          <iframe src="assets/video/What is Science_.mp4" title="Science Video" allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+          <h3>𝐖𝐫𝐢𝐭𝐢𝐧𝐠 𝐢𝐧 𝐄𝐧𝐠𝐥𝐢𝐬𝐡 - 𝐁𝐚𝐬𝐢𝐜 𝐆𝐮𝐢𝐝𝐞</h3>
+          <iframe src="assets/video/English Writing Masterclass (Improve Your Writing!).mp4" title="English Video" allowfullscreen></iframe>
+        </div>
+        <div class="video-box">
+          <h3>𝐅𝐢𝐥𝐢𝐩𝐢𝐧𝐨 𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 𝐓𝐢𝐩𝐬</h3>
+          <iframe src="assets/video/Learn Filipino in 30 Minutes - ALL the Basics You Need.mp4" title="Filipino Video" allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 𝙀𝙙𝙪𝙃𝙤𝙥𝙚 𝙋𝙃</p>
+    </footer>
+  </div>
+</body>
+</html>
